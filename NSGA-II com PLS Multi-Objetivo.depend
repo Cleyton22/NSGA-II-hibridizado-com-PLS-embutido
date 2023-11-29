@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1698504942 source:c:\users\cleyton\downloads\ufba\grupo de pesquisa, bolsa (felipe fernandes)\nsga-ii e pls híbrido\nsga-ii com pls multi-objetivo\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<limits.h>
+	<stdbool.h>
+
+1701238446 source:c:\users\cleyton\downloads\ufba\grupo de pesquisa, bolsa (felipe fernandes)\nsga-ii e pls híbrido semi-paralelo\nsga-ii com pls multi-objetivo\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<limits.h>
+	<stdbool.h>
+
