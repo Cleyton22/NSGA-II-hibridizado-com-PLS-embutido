@@ -1,5 +1,4 @@
 # NSGA-II-hibridizado-com-PLS-embutido
-
 NSGA-II hibridizado com PLS embutido para o problema da árvore geradora biobjetiva
 
 O arquivo de entrada da instância da árvore geradora biobjetiva (AG-BI) deve seguir o mesmo padrão que os arquivos .grasp para o algoritmo funcinar corretamente. Para escolher qual instância o algoritmo usará, é preciso mudar o nome do aquivo "20.grasp1.in" na linha 1561 "FILE *file = fopen("20.grasp1.in", "r");", na função main, para a instância desejada.
