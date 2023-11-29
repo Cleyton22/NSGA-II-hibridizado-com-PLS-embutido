@@ -1,9 +1,9 @@
 # NSGA-II-hibridizado-com-PLS-embutido
 NSGA-II hibridizado com PLS embutido para o problema da árvore geradora biobjetiva
 
-O arquivo de entrada da instância da árvore geradora biobjetiva (AG-BI) deve seguir o mesmo padrão que os arquivos .grasp para o algoritmo funcinar corretamente. Para escolher qual instância o algoritmo usará, é preciso mudar o nome do aquivo "20.grasp1.in" na linha 1561 "FILE *file = fopen("20.grasp1.in", "r");", na função main, para a instância desejada.
+O arquivo de entrada da instância da árvore geradora biobjetiva (AG-BI) deve seguir o mesmo padrão que os arquivos .grasp para o algoritmo funcinar corretamente. Para escolher qual instância o algoritmo usará, é preciso mudar o nome do aquivo "20.grasp1.in" na linha 2093 "FILE *file = fopen("20.grasp1.in", "r");", na função main, para a instância desejada.
 
-Este algoritmo executa NSGA-II sozinho com a mesma população inicial que a população inicial para o híbrido, por motivos de comparação. Para desativar a execução do NSFA-II sozinho é necessário comentar a linha 2114 "nsga2OnlyMainLoop(initialPopulation, allEdges, numVertices);"
+Este algoritmo executa NSGA-II sozinho com a mesma população inicial que a população inicial para o híbrido, por motivos de comparação. Para desativar a execução do NSGA-II sozinho é necessário comentar a linha 2114 "nsga2OnlyMainLoop(initialPopulation, allEdges, numVertices);"
 
 Para modificar os parâmetros do algoritmo é preciso alterar os valores das constantes: POPULATION_SIZE, TOURNAMENT_SIZE, GENERATION_AMOUNT, MUTATION_RATE e CROSSOVER_RATE
 
